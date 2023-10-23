@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SimpleGames.exe" version="1.0.0.0" publicKeyToken="f3f53e4276836fd6" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="229799.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SimpleGames" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SimpleGames.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleGames.exe" size="30336464">
+      <assemblyIdentity name="SimpleGames" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GFxWpTivuc03AxJzgMaFq0OFnQW9a1YW/6LVlJxe2RI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="229799.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cbONTuUtPvLmUBsKQfA77n0dMsM13HRgIFkM3d5pNRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SimpleGames.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-RO84FJ75\HP" issuerKeyHash="033f2a6e97d9b67a8c5989afe3a15f042d92629c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DJ0Nnl1SL0cPEQRJoVcQ6aQEriH23G9TctHdLCVEkdA=</DigestValue></Reference></SignedInfo><SignatureValue>jtvG/Z4+Q5MgRmjhcd7oz9YTDrg8xSbEoiyPyPkPnX4FnLp8sFBMiZjxoA88WHEzfjCTQcsDZFrIBFEBjpn0eVyVTUky/mT5O1D4br75VDEjyyCXmAByvAAKkCkM1qO8BXFrNKqacVdHOydwyUQ1MPyiMrycAf/vvX01r91a8es=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>us3AQm5iOVODd/ScvmK4Z1nCgkknxzqYvK/HFiqCfRLw/IKg6isDVx+/opEQJML7s3Qv/8JsbYmH0QbQ5VyuxlTmbBTjBTZfWnJLJeKwS5DILH4MKA4s5FhK6r7UNYJ64pMXFdHJw92Se2awr0pF5mYSPid1xq6gy0nhmhBUfB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d09144252cddd172536fdcf621ae04a4e91057a14904110f472f525d9e0d9d0c" Description="" Url=""><as:assemblyIdentity name="SimpleGames.exe" version="1.0.0.0" publicKeyToken="f3f53e4276836fd6" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-RO84FJ75\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u9UVy8qL8Tn+OuJg8A8J54xDGUEl7VdHg8T+++39WKY=</DigestValue></Reference></SignedInfo><SignatureValue>TozzI/kEFipwtH52lpVveaXIWdL7VkDpBEtF7V/5OtHgySCWLFU6U8YGq/BFNCwGGIgkBjJ76kJ8+O/Av7PLl5Hhahldi5NQNTxmwuWJCJMxgVvGXgd24sh1iUbpuQOovY26MYZzNTge7tBFwsp/rY33OLwrn/6gr3fJRXDTquc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>us3AQm5iOVODd/ScvmK4Z1nCgkknxzqYvK/HFiqCfRLw/IKg6isDVx+/opEQJML7s3Qv/8JsbYmH0QbQ5VyuxlTmbBTjBTZfWnJLJeKwS5DILH4MKA4s5FhK6r7UNYJ64pMXFdHJw92Se2awr0pF5mYSPid1xq6gy0nhmhBUfB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQTFKzqZwE5YFPyqhrbW00zDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBSAE8AOAA0AEYASgA3ADUAXABIAFAwHhcNMjMxMDIzMTEzMjA0WhcNMjQxMDIyMTczMjA0WjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBSAE8AOAA0AEYASgA3ADUAXABIAFAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALrNwEJuYjlTg3f0nL5iuGdZwoJJJ8c6mLyvxxYqgn0S8PyCoOorA1cfv6KRECTC+7N0L//CbG2Jh9EG0OVcrsZU5mwU4wU2X1pySyXisEuQyCx+DCgOLORYSuq+1DWCeuKTFxXRycPdkntmsK9KReZmEj4ndcauoMtJ4ZoQVHwdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEANtU8rPBOpbQI84C+dSEzVjSF/goFPgpzQ+UCetBiwYhnlbAJSX/+mOZhenUyqRY1lWJfR7xNa8+nZQHZqEFnKjja4dAklTFNOrfwzoER4DYGTIwD8are9vjDpkcPi9KE14xoPnz9cJstE0EJ3oAuAj6QA51wbuFYCbsht4/q/iU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
